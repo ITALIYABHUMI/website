@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --body-color:#212428;
+    --white:#ffffff;
+    --white-900: #c4cfde;
+    --white-800:#e4e6ea;
+    --white-700:#17191c;
+    --white-600:#9ca5b1;
+    --white-500:#a0a8b3;
+    --red:#ff014f;
+    --red-900:#f9004d;
+    --black:#000000;
+    --black-900:#191b1e;
+    --black-800: #878e99;
+    --black-700:#6c757d;
+    --black-600:#16181c;
+    --black-500:#1a1d23;
+    --black-400:#222529;
+    --black-300:#121415;
+    --main-font:'Montserrat';
+    --poppins: 'Poppins';
+    --shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+body{
+    background-color: var(--body-color);
+    overflow-x: hidden  ;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.position-relative{
+    position: relative;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.align-item-center{
+    align-items: center;
+}
+.w-20{
+   width:20%;
+}
+.w-25{
+    width:25%;
+ }
+.w-30{
+    width: 30%;
+    padding: 10px;
+}
+.w-33{
+    width: 33.33%;
+    padding: 10px;
+}
+.w-50{
+    width: 50%;
+    padding: 10px;
+}
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
+}
+.w-70{
+    width: 70%;
+    padding: 12px;
+}
+.w-75{
+    width: 75%;
+}
+.w-80{
+    width: 80%;
+}
+
+.line{
+    width: 100%;
+}
+.aside{
+    overflow-y: scroll;
+    height: 100vh;
+}
+::-webkit-scrollbar{
+    height: 100%;
+    width: 5px;
+    background-color: var(--black);
+}
+::-webkit-scrollbar-thumb{
+    height: 50px;
+    background-color: var(--black-300);
+}
+.devider{
+    width: 100%;
+    border: 1px solid var(--black-600);
+    margin: 50px 0;
+}
+.title{
+    font-family: var(--main-font);
+    text-align: center;
+    padding: 40px 0 92px;
+}
+.title h5{
+    color: var(--red-900);
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 900;   
+}
+.title h2{
+    font-size: 60px;
+    color: var(--white-900);
+    margin-top: 15px;
+    font-weight:900;
+}
+.left{
+    text-align: left;
+    padding: 0 10px;
+}
+
+/* toggle */
+.toggle {
+    width: 100%;
+    text-align: right;
+}
+.toggle i{
+    color: var(--red);
+    font-size: 32px;
+    padding: 10px;
+}

@@ -1,0 +1,19 @@
+#counter-section-container {
+    width: 100%;
+    text-align: center;
+  }
+  #counter-box-container {
+    overflow: hidden;
+    display: inline-block;
+  }
+  #counter-box {
+    width: 33.33%;
+    min-width: 200px;
+    padding: 5px 5px 5px 5px;
+    float: left;
+    color: #cccccc;
+  }
+  .counter {
+    font-size: 50px;
+    color:#cccccc;
+  }

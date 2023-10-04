@@ -1,0 +1,10 @@
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+/* ---- tsparticles container ---- */
+#tsparticles {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,43 @@
+:root {
+  --px-acc-transition-duration: 300ms;
+}
+.px-acc-item {
+  margin-bottom: 0.7rem;
+  border-radius: 10px;
+}
+.px-acc-head {
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #eaa324;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.px-acc-title {
+  font-size: 1.1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.px-acc-icon {
+  font-size: 1.6rem;
+  line-height: 1;
+  transition: transform var(--px-acc-transition-duration) ease;
+}
+.px-acc-item.active .px-acc-icon {
+  transform: rotateZ(180deg);
+}
+.px-acc-body {
+  height: 0;
+  background-color: #Ffffff;
+  overflow: hidden;
+  transition: height var(--px-acc-transition-duration) ease;
+}
+.px-acc-content {
+  padding: 1rem;
+}

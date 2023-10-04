@@ -1,0 +1,1193 @@
+.xs-1,
+.xs-2,
+.xs-3,
+.xs-4,
+.xs-5,
+.xs-6,
+.xs-7,
+.xs-8,
+.xs-9,
+.xs-10,
+.xs-11,
+.xs-12,
+.sm-1,
+.sm-2,
+.sm-3,
+.sm-4,
+.sm-5,
+.sm-6,
+.sm-7,
+.sm-8,
+.sm-9,
+.sm-10,
+.sm-11,
+.sm-12,
+.md-1,
+.md-2,
+.md-3,
+.md-4,
+.md-5,
+.md-6,
+.md-7,
+.md-8,
+.md-9,
+.md-10,
+.md-11,
+.md-12,
+.lg-1,
+.lg-2,
+.lg-3,
+.lg-4,
+.lg-5,
+.lg-6,
+.lg-7,
+.lg-8,
+.lg-9,
+.lg-10,
+.lg-11,
+.lg-12,
+.xl-1,
+.xl-2,
+.xl-3,
+.xl-4,
+.xl-5,
+.xl-6,
+.xl-7,
+.xl-8,
+.xl-9,
+.xl-10,
+.xl-11,
+.xl-12 {
+    padding: 12px;
+}
+
+@media (max-width: 575px) {
+    .menu {
+        .line {
+            span::after {
+                width: 150px;
+                height: 1px;
+            }
+        }
+    }
+
+    .d-none {
+        display: none;
+    }
+
+    .t-block {
+        display: block;
+    }
+
+    .xs-1 {
+        width: 8.33%;
+    }
+
+    .xs-2 {
+        width: 16.66%;
+    }
+
+    .xs-3 {
+        width: 25%;
+    }
+
+    .xs-4 {
+        width: 33.33%;
+    }
+
+    .xs-5 {
+        width: 41.66%;
+    }
+
+    .xs-6 {
+        width: 50%;
+    }
+
+    .xs-7 {
+        width: 58.33%;
+    }
+
+    .xs-8 {
+        width: 66.66%;
+    }
+
+    .xs-9 {
+        width: 75%;
+    }
+
+    .xs-10 {
+        width: 83.33%;
+    }
+
+    .xs-11 {
+        width: 91.66%;
+    }
+
+    .xs-12 {
+        width: 100%;
+    }
+    .name{
+        display: none;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --webkit-box-sizing: border-box;
+    --moz-box-sizing: border-box;
+    outline: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-rev {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+$bals: "Balsamiq Sans";
+$black-200: #808080;
+$white-100: #ffffff;
+$white-200: #adb1ae2e;
+$brown-100: #41332c;
+$yellow-100: #eaa324;
+$yellow-200: #fde0a1;
+$yellow-300: #fcf9ef;
+
+@mixin btn {
+    width: 147px;
+    height: 46px;
+    background-color: $yellow-100;
+    color: $white-100;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: $bals;
+    margin-top: 16px;
+    text-transform: capitalize;
+    transition: all 1s;
+}
+
+@mixin btn-hover {
+    background-color: $brown-100;
+}
+
+@mixin title-h5 {
+    font-size: 16px;
+    font-family: $bals;
+    color: $yellow-100;
+}
+
+@mixin title-h2 {
+    font-size: 40px;
+    font-family: $bals;
+    color: $brown-100;
+    padding: 15px 0;
+}
+
+@mixin title-p {
+    font-size: 16px;
+    font-family: $bals;
+    color: $brown-100;
+    line-height: 25px;
+}
+
+@mixin a-hover {
+    color: $yellow-100;
+}
+
+@mixin footer {
+    font-size: 16px;
+    color: $brown-100;
+    font-family: $bals;
+    text-transform: capitalize;
+}
+
+@mixin main {
+    font-size: 42px;
+    font-family: $bals;
+    color: $brown-100;
+    text-transform: capitalize;
+}
+
+@mixin count-img {
+    font-size: 52px;
+    color: $yellow-100;
+}
+
+// header
+header {
+    font-family: $bals;
+
+    .menu {
+        ul {
+            li {
+                padding: 0 22px;
+
+                a {
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    color: $brown-100;
+                    transition: all 1s;
+                }
+
+                a:hover {
+                    color: $yellow-100;
+                }
+            }
+        }
+    }
+
+    .logo {
+        img {
+            width: 70px;
+        }
+    }
+}
+
+// slider
+.svg {
+    fill: $white-100;
+    height: 20px;
+    margin-bottom: -20px;
+    width: 100%;
+}
+.svg1 {
+    fill: $white-100;
+    margin-top: -1000px;
+    height: 55px;
+    width: 100%;
+    transform: rotate(180deg);
+}
+.svg2 {
+    fill: $white-100;
+    margin-top: -100px;
+    width: 100%;
+    height: 60px;
+    transform: rotate(180deg);
+}
+
+.slider {
+    background-image: url(../img/vanilla-sweet-natural-ice-cream-background.jpg);
+    height: 1000px;
+    text-align: center;
+    font-family: $bals;
+    padding-top: 100px;
+
+    .contant {
+        margin: auto;
+        width: 60%;
+
+        h2 {
+            font-size: 53px;
+        }
+
+        p {
+            padding-top: 20px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .btn {
+            margin: auto;
+            @include btn;
+        }
+
+        .btn:hover {
+            @include btn-hover;
+        }
+    }
+
+    .img {
+        margin-top: 50px;
+
+        .i-1 {
+            margin-top: 100px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+}
+
+// about
+.about {
+    padding: 50px 0;
+    font-family: $bals;
+
+    img {
+        width: 100%;
+    }
+
+    .title {
+        h5 {
+            @include title-h5;
+        }
+
+        h2 {
+            @include title-h2;
+        }
+
+        p {
+            @include title-p;
+        }
+    }
+
+    .btn {
+        @include btn;
+    }
+
+    .btn:hover {
+        @include btn-hover;
+    }
+
+    ul {
+        li {
+            padding: 10px 0;
+
+            i {
+                width: 14px;
+                height: 14px;
+                background-color: $yellow-100;
+                color: $white-100;
+                border-radius: 50%;
+                font-size: 10px;
+                text-align: center;
+                line-height: 14px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .sign {
+        border-top: 1px solid $black-200;
+        margin: 20px 0;
+        padding: 20px 0;
+
+        img {
+            width: 200px;
+        }
+
+        h3 {
+            color: $brown-100;
+            font-size: 18px;
+        }
+
+        h4 {
+            color: $black-200;
+            font-size: 14px;
+        }
+    }
+}
+
+// service
+.service {
+    padding: 50px 0;
+
+    .about-1 {
+        .content {
+            background-color: $yellow-200;
+            padding: 25px;
+            border-radius: 10px;
+
+            .title {
+                h5 {
+                    @include title-h5;
+                }
+
+                h2 {
+                    @include title-h2;
+                }
+
+                p {
+                    @include title-p;
+                }
+            }
+
+            .btn {
+                @include btn;
+            }
+
+            .btn:hover {
+                @include btn-hover;
+            }
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+    }
+
+    .about-2 {
+        img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .img {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// skill
+.skill {
+    width: 100%;
+    background-image: url("../img/ice-cream.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #fafafada;
+    background-blend-mode: lighten;
+    font-family: $bals;
+    padding: 50px;
+
+    .content {
+        .title {
+            h5 {
+                @include title-h5;
+            }
+
+            h2 {
+                @include title-h2;
+            }
+
+            p {
+                @include title-p;
+            }
+        }
+
+        .btn {
+            @include btn;
+        }
+
+        .btn:hover {
+            @include btn-hover;
+        }
+
+        .progress-bar {
+            padding-top: 20px;
+
+            span {
+                font-size: 18px;
+                color: $brown-100;
+            }
+
+            .progress1,
+            .progress2,
+            .progress3 {
+                background: $yellow-200;
+                border-radius: 100px;
+                height: 8px;
+                margin: 10px 0 20px 0;
+            }
+
+            .progress1,
+            .progress2,
+            .progress3 {
+                .progress-value {
+                    animation: load1 5s normal forwards;
+                    border-radius: 100px;
+                    background: $yellow-100;
+                    height: 8px;
+                }
+            }
+
+            .progress2 {
+                .progress-value {
+                    animation: load2 5s normal forwards;
+                }
+            }
+
+            .progress3 {
+                .progress-value {
+                    animation: load3 5s normal forwards;
+                }
+            }
+
+            @keyframes load1 {
+                0% {
+                    width: 0;
+                }
+
+                100% {
+                    width: 87%;
+                }
+            }
+
+            @keyframes load2 {
+                0% {
+                    width: 0;
+                }
+
+                100% {
+                    width: 93%;
+                }
+            }
+
+            @keyframes load3 {
+                0% {
+                    width: 0;
+                }
+
+                100% {
+                    width: 83%;
+                }
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+// menu
+.menu {
+    font-family: $bals;
+    padding: 50px 0;
+
+    .title {
+        text-align: center;
+
+        h5 {
+            margin-top: 50px;
+            @include title-h5;
+        }
+
+        h2 {
+            @include title-h2;
+        }
+
+        p {
+            @include title-p;
+        }
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .ice {
+        img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+    }
+
+    h5 {
+        color: $brown-100;
+        font-size: 18px;
+    }
+
+    p {
+        color: $black-200;
+        font-size: 18px;
+        margin: 15px 0;
+    }
+
+    span {
+        color: $yellow-100;
+        font-size: 18px;
+        position: relative;
+    }
+
+    span::after {
+        width: 300px;
+        height: 1px;
+        position: absolute;
+        content: "";
+        background-color: $black-200;
+        top: 50%;
+        right: 100%;
+        margin-right: 5px;
+    }
+
+    .btn {
+        @include btn;
+    }
+
+    .btn:hover {
+        @include btn-hover;
+    }
+
+    h3 {
+        color: $yellow-100;
+        font-size: 23px;
+        text-transform: capitalize;
+        font-weight: 800;
+        padding-bottom: 30px;
+    }
+}
+
+// review
+.review {
+    padding: 80px 0;
+    background-color: $yellow-300;
+
+    .title {
+        text-align: center;
+
+        h5 {
+            @include title-h5;
+        }
+
+        h2 {
+            @include title-h2;
+        }
+
+        p {
+            @include title-p;
+        }
+    }
+
+    img {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+    }
+
+    .rew {
+        margin: 20px 0;
+        padding: 20px;
+        z-index: 1;
+        background-color: $yellow-200;
+        border-radius: 10px;
+
+        p,
+        h5,
+        span {
+            font-size: 16px;
+            font-family: $bals;
+            color: $brown-100;
+            line-height: 25px;
+        }
+
+        p {
+            padding-bottom: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        span {
+            font-size: 12px;
+        }
+
+        i {
+            color: $yellow-100;
+            font-size: 35px;
+        }
+    }
+}
+
+// news
+.news {
+    padding: 50px 0;
+    font-family: $bals;
+
+    .title {
+        text-align: center;
+
+        h5 {
+            margin-top: 50px;
+            @include title-h5;
+        }
+
+        h2 {
+            @include title-h2;
+        }
+
+        p {
+            @include title-p;
+            padding-bottom: 20px;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    a {
+        font-size: 18px;
+        color: $brown-100;
+        font-weight: 800;
+        transition: all 1s;
+    }
+
+    a:hover {
+        @include a-hover;
+    }
+
+    .user {
+        font-size: 12px;
+        color: $black-200;
+
+        .u-1 {
+            padding-right: 25px;
+        }
+
+        i {
+            padding: 20px 10px 10px 0;
+        }
+
+        p {
+            font-size: 14px;
+            padding: 10px 0;
+            line-height: 25px;
+        }
+    }
+
+    .read {
+        padding-top: 15px;
+        a {
+            font-size: 13px;
+            color: $brown-100;
+            text-transform: capitalize;
+
+            i {
+                padding-left: 5px;
+            }
+        }
+    }
+}
+
+// contact
+.contact {
+    padding: 20px;
+    margin-top: 20px;
+    font-family: $bals;
+    text-align: center;
+    background-image: url(../img/ice-cream-3.jpg);
+    background-color: #fafafa9c;
+    background-blend-mode: lighten;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 336px;
+
+    .title {
+        h5 {
+            margin-top: 50px;
+            @include title-h5;
+        }
+
+        h2 {
+            @include title-h2;
+        }
+
+        p {
+            @include title-p;
+        }
+    }
+
+    .mail {
+        padding-top: 20px;
+
+        input {
+            width: 60%;
+            height: 56px;
+            border-radius: 50px 0 0 50px;
+            border: 0;
+            border: 1px solid $yellow-100;
+            font-size: 16px;
+            color: $black-200;
+            text-transform: capitalize;
+            padding-left: 10px;
+            font-family: $bals;
+        }
+
+        input:focus {
+            border: 2px solid $brown-100;
+        }
+
+        button {
+            font-family: $bals;
+            width: 152px;
+            height: 56px;
+            border-radius: 0 50px 50px 0;
+            background-color: $yellow-100;
+            font-size: 16px;
+            border: none;
+            color: $white-100;
+            text-transform: capitalize;
+            transition: all 1s;
+        }
+
+        button:hover {
+            @include btn-hover;
+        }
+    }
+}
+
+.logo1 {
+    text-align: center;
+    padding: 50px 0;
+
+    img {
+        width: 50%;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: $yellow-300;
+    .svg{
+        margin-bottom: -5px;
+    }
+
+    .foot {
+        border-bottom: 1px solid $white-200;
+        margin-bottom: 20px;
+
+        img {
+            width: 95px;
+        }
+
+        p {
+            @include footer;
+            text-transform: none;
+            padding: 20px 20px 20px 0;
+        }
+
+        .icon {
+            i {
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                background-color: $yellow-100;
+                color: $white-100;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 12px;
+                transition: all 1s;
+            }
+
+            i:hover {
+                @include btn-hover;
+            }
+        }
+
+        h5 {
+            @include footer;
+            font-size: 23px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid $yellow-100;
+            width: 80%;
+        }
+
+        ul {
+            padding: 15px 0;
+
+            li {
+                padding: 5px 0;
+
+                a {
+                    @include footer;
+                    transition: all 1s;
+                }
+
+                a:hover {
+                    @include a-hover;
+                }
+            }
+        }
+
+        span {
+            @include footer;
+            margin: 20px 0;
+
+            i {
+                color: $yellow-100;
+                padding-right: 5px;
+                padding-top: 20px;
+            }
+        }
+
+        .btn {
+            @include btn;
+        }
+
+        .btn:hover {
+            @include btn-hover;
+        }
+    }
+
+    p {
+        @include footer;
+    }
+}
+
+// about
+.slider1 {
+    padding: 80px 0;
+    background-image: url(../img/vanilla-sweet-natural-ice-cream-background.jpg);
+    text-align: center;
+
+    h2 {
+        @include main;
+    }
+
+    p {
+        @include footer;
+    }
+
+    i {
+        color: $brown-100;
+        padding: 0 12px;
+    }
+
+    span {
+        @include footer;
+        color: $yellow-100;
+    }
+}
+
+.counters {
+    padding: 20px 0;
+    text-align: center;
+
+    i {
+        @include count-img;
+    }
+
+    .counter {
+        @include footer;
+        font-size: 35px;
+        padding: 20px 0 10px 0;
+    }
+
+    h3 {
+        @include footer;
+        padding-bottom: 20px;
+    }
+}
+
+.staf {
+    margin: 80px 0;
+    font-family: $bals;
+    position: relative;
+
+    .title {
+        text-align: center;
+
+        h5 {
+            @include title-h5;
+        }
+
+        h2 {
+            @include title-h2;
+        }
+
+        p {
+            padding-bottom: 50px;
+            @include title-p;
+        }
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .name {
+        border-radius: 10px;
+        background-color: $yellow-100;
+        color: $white-100;
+        text-transform: capitalize;
+        position: absolute;
+        bottom: -5%;
+        text-align: center;
+        padding: 25px;
+
+        h5 {
+            width: 100%;
+            font-size: 23px;
+        }
+
+        span {
+            width: 100%;
+            font-size: 16px;
+        }
+    }
+}
+
+.faq {
+    margin: 150px 0 50px 0;
+
+    .title {
+        h5 {
+            @include title-h5;
+        }
+
+        h2 {
+            @include title-h2;
+        }
+
+        p {
+            @include title-p;
+        }
+    }
+
+    .btn {
+        @include btn;
+    }
+
+    .btn:hover {
+        @include btn-hover;
+    }
+
+    .px-acc-title {
+        font-size: 16px;
+        font-family: $bals;
+        color: $white-100;
+        font-weight: 800;
+    }
+
+    .px-acc-icon {
+        color: $white-100;
+    }
+
+    .px-acc-content {
+        @include footer;
+    }
+}
+
+.con-mail {
+    margin: 50px 0;
+    font-family: $bals;
+
+    .title {
+        h5 {
+            margin-top: 50px;
+            @include title-h5;
+        }
+
+        h2 {
+            @include title-h2;
+        }
+
+        p {
+            @include title-p;
+            padding-bottom: 30px;
+        }
+    }
+
+    i {
+        font-size: 20px;
+        color: $white-100;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $yellow-100;
+        text-align: center;
+        line-height: 40px;
+        margin: 0 5px 0px 10px;
+    }
+
+    .contant {
+        h3 {
+            font-size: 23px;
+            color: $brown-100;
+        }
+
+        p {
+            font-size: 16px;
+            color: $black-200;
+        }
+    }
+
+    form {
+        background-color: $yellow-300;
+        padding: 12px;
+        border-radius: 10px;
+
+        label {
+            @include footer;
+        }
+
+        input {
+            width: 100%;
+            height: 56px;
+            border-radius: 10px;
+            border: 1px solid $yellow-100;
+            margin: 10px 0 30px 0;
+        }
+
+        input:last-child {
+            height: 140px;
+        }
+    }
+}
+
+.map {
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.top {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: $yellow-300;
+    border-radius: 50%;
+    background-color: $black-200;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99999;
+}

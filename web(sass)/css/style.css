@@ -1,0 +1,1121 @@
+.xs-1,
+.xs-2,
+.xs-3,
+.xs-4,
+.xs-5,
+.xs-6,
+.xs-7,
+.xs-8,
+.xs-9,
+.xs-10,
+.xs-11,
+.xs-12,
+.sm-1,
+.sm-2,
+.sm-3,
+.sm-4,
+.sm-5,
+.sm-6,
+.sm-7,
+.sm-8,
+.sm-9,
+.sm-10,
+.sm-11,
+.sm-12,
+.md-1,
+.md-2,
+.md-3,
+.md-4,
+.md-5,
+.md-6,
+.md-7,
+.md-8,
+.md-9,
+.md-10,
+.md-11,
+.md-12,
+.lg-1,
+.lg-2,
+.lg-3,
+.lg-4,
+.lg-5,
+.lg-6,
+.lg-7,
+.lg-8,
+.lg-9,
+.lg-10,
+.lg-11,
+.lg-12,
+.xl-1,
+.xl-2,
+.xl-3,
+.xl-4,
+.xl-5,
+.xl-6,
+.xl-7,
+.xl-8,
+.xl-9,
+.xl-10,
+.xl-11,
+.xl-12 {
+  padding: 12px;
+}
+
+@media (max-width: 575px) {
+  .menu .line span::after {
+    width: 150px;
+    height: 1px;
+  }
+  .d-none {
+    display: none;
+  }
+  .t-block {
+    display: block;
+  }
+  .xs-1 {
+    width: 8.33%;
+  }
+  .xs-2 {
+    width: 16.66%;
+  }
+  .xs-3 {
+    width: 25%;
+  }
+  .xs-4 {
+    width: 33.33%;
+  }
+  .xs-5 {
+    width: 41.66%;
+  }
+  .xs-6 {
+    width: 50%;
+  }
+  .xs-7 {
+    width: 58.33%;
+  }
+  .xs-8 {
+    width: 66.66%;
+  }
+  .xs-9 {
+    width: 75%;
+  }
+  .xs-10 {
+    width: 83.33%;
+  }
+  .xs-11 {
+    width: 91.66%;
+  }
+  .xs-12 {
+    width: 100%;
+  }
+  .name {
+    display: none;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --webkit-box-sizing: border-box;
+  --moz-box-sizing: border-box;
+  outline: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-rev {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+header {
+  font-family: "Balsamiq Sans";
+}
+header .menu ul li {
+  padding: 0 22px;
+}
+header .menu ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #41332c;
+  transition: all 1s;
+}
+header .menu ul li a:hover {
+  color: #eaa324;
+}
+header .logo img {
+  width: 70px;
+}
+
+.svg {
+  fill: #ffffff;
+  height: 20px;
+  margin-bottom: -20px;
+  width: 100%;
+}
+
+.svg1 {
+  fill: #ffffff;
+  margin-top: -1000px;
+  height: 55px;
+  width: 100%;
+  transform: rotate(180deg);
+}
+
+.svg2 {
+  fill: #ffffff;
+  margin-top: -100px;
+  width: 100%;
+  height: 60px;
+  transform: rotate(180deg);
+}
+
+.slider {
+  background-image: url(../img/vanilla-sweet-natural-ice-cream-background.jpg);
+  height: 1000px;
+  text-align: center;
+  font-family: "Balsamiq Sans";
+  padding-top: 100px;
+}
+.slider .contant {
+  margin: auto;
+  width: 60%;
+}
+.slider .contant h2 {
+  font-size: 53px;
+}
+.slider .contant p {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+.slider .contant .btn {
+  margin: auto;
+  width: 147px;
+  height: 46px;
+  background-color: #eaa324;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  margin-top: 16px;
+  text-transform: capitalize;
+  transition: all 1s;
+}
+.slider .contant .btn:hover {
+  background-color: #41332c;
+}
+.slider .img {
+  margin-top: 50px;
+}
+.slider .img .i-1 {
+  margin-top: 100px;
+}
+.slider .img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about {
+  padding: 50px 0;
+  font-family: "Balsamiq Sans";
+}
+.about img {
+  width: 100%;
+}
+.about .title h5 {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #eaa324;
+}
+.about .title h2 {
+  font-size: 40px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  padding: 15px 0;
+}
+.about .title p {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  line-height: 25px;
+}
+.about .btn {
+  width: 147px;
+  height: 46px;
+  background-color: #eaa324;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  margin-top: 16px;
+  text-transform: capitalize;
+  transition: all 1s;
+}
+.about .btn:hover {
+  background-color: #41332c;
+}
+.about ul li {
+  padding: 10px 0;
+}
+.about ul li i {
+  width: 14px;
+  height: 14px;
+  background-color: #eaa324;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 10px;
+  text-align: center;
+  line-height: 14px;
+  margin-right: 5px;
+}
+.about .sign {
+  border-top: 1px solid #808080;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+.about .sign img {
+  width: 200px;
+}
+.about .sign h3 {
+  color: #41332c;
+  font-size: 18px;
+}
+.about .sign h4 {
+  color: #808080;
+  font-size: 14px;
+}
+
+.service {
+  padding: 50px 0;
+}
+.service .about-1 .content {
+  background-color: #fde0a1;
+  padding: 25px;
+  border-radius: 10px;
+}
+.service .about-1 .content .title h5 {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #eaa324;
+}
+.service .about-1 .content .title h2 {
+  font-size: 40px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  padding: 15px 0;
+}
+.service .about-1 .content .title p {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  line-height: 25px;
+}
+.service .about-1 .content .btn {
+  width: 147px;
+  height: 46px;
+  background-color: #eaa324;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  margin-top: 16px;
+  text-transform: capitalize;
+  transition: all 1s;
+}
+.service .about-1 .content .btn:hover {
+  background-color: #41332c;
+}
+.service .about-1 img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.service .about-2 img {
+  width: 100%;
+  height: 420px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.service .about-2 .img {
+  width: 100%;
+}
+.service .about-2 .img img {
+  width: 100%;
+}
+
+.skill {
+  width: 100%;
+  background-image: url("../img/ice-cream.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(250, 250, 250, 0.8549019608);
+  background-blend-mode: lighten;
+  font-family: "Balsamiq Sans";
+  padding: 50px;
+}
+.skill .content .title h5 {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #eaa324;
+}
+.skill .content .title h2 {
+  font-size: 40px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  padding: 15px 0;
+}
+.skill .content .title p {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  line-height: 25px;
+}
+.skill .content .btn {
+  width: 147px;
+  height: 46px;
+  background-color: #eaa324;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  margin-top: 16px;
+  text-transform: capitalize;
+  transition: all 1s;
+}
+.skill .content .btn:hover {
+  background-color: #41332c;
+}
+.skill .content .progress-bar {
+  padding-top: 20px;
+}
+.skill .content .progress-bar span {
+  font-size: 18px;
+  color: #41332c;
+}
+.skill .content .progress-bar .progress1,
+.skill .content .progress-bar .progress2,
+.skill .content .progress-bar .progress3 {
+  background: #fde0a1;
+  border-radius: 100px;
+  height: 8px;
+  margin: 10px 0 20px 0;
+}
+.skill .content .progress-bar .progress1 .progress-value,
+.skill .content .progress-bar .progress2 .progress-value,
+.skill .content .progress-bar .progress3 .progress-value {
+  -webkit-animation: load1 5s normal forwards;
+          animation: load1 5s normal forwards;
+  border-radius: 100px;
+  background: #eaa324;
+  height: 8px;
+}
+.skill .content .progress-bar .progress2 .progress-value {
+  -webkit-animation: load2 5s normal forwards;
+          animation: load2 5s normal forwards;
+}
+.skill .content .progress-bar .progress3 .progress-value {
+  -webkit-animation: load3 5s normal forwards;
+          animation: load3 5s normal forwards;
+}
+@-webkit-keyframes load1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 87%;
+  }
+}
+@keyframes load1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 87%;
+  }
+}
+@-webkit-keyframes load2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 93%;
+  }
+}
+@keyframes load2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 93%;
+  }
+}
+@-webkit-keyframes load3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 83%;
+  }
+}
+@keyframes load3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 83%;
+  }
+}
+.skill img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menu {
+  font-family: "Balsamiq Sans";
+  padding: 50px 0;
+}
+.menu .title {
+  text-align: center;
+}
+.menu .title h5 {
+  margin-top: 50px;
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #eaa324;
+}
+.menu .title h2 {
+  font-size: 40px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  padding: 15px 0;
+}
+.menu .title p {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  line-height: 25px;
+}
+.menu img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.menu .ice img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.menu h5 {
+  color: #41332c;
+  font-size: 18px;
+}
+.menu p {
+  color: #808080;
+  font-size: 18px;
+  margin: 15px 0;
+}
+.menu span {
+  color: #eaa324;
+  font-size: 18px;
+  position: relative;
+}
+.menu span::after {
+  width: 300px;
+  height: 1px;
+  position: absolute;
+  content: "";
+  background-color: #808080;
+  top: 50%;
+  right: 100%;
+  margin-right: 5px;
+}
+.menu .btn {
+  width: 147px;
+  height: 46px;
+  background-color: #eaa324;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  margin-top: 16px;
+  text-transform: capitalize;
+  transition: all 1s;
+}
+.menu .btn:hover {
+  background-color: #41332c;
+}
+.menu h3 {
+  color: #eaa324;
+  font-size: 23px;
+  text-transform: capitalize;
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+
+.review {
+  padding: 80px 0;
+  background-color: #fcf9ef;
+}
+.review .title {
+  text-align: center;
+}
+.review .title h5 {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #eaa324;
+}
+.review .title h2 {
+  font-size: 40px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  padding: 15px 0;
+}
+.review .title p {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  line-height: 25px;
+}
+.review img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.review .rew {
+  margin: 20px 0;
+  padding: 20px;
+  z-index: 1;
+  background-color: #fde0a1;
+  border-radius: 10px;
+}
+.review .rew p,
+.review .rew h5,
+.review .rew span {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  line-height: 25px;
+}
+.review .rew p {
+  padding-bottom: 20px;
+}
+.review .rew h5 {
+  font-size: 18px;
+}
+.review .rew span {
+  font-size: 12px;
+}
+.review .rew i {
+  color: #eaa324;
+  font-size: 35px;
+}
+
+.news {
+  padding: 50px 0;
+  font-family: "Balsamiq Sans";
+}
+.news .title {
+  text-align: center;
+}
+.news .title h5 {
+  margin-top: 50px;
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #eaa324;
+}
+.news .title h2 {
+  font-size: 40px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  padding: 15px 0;
+}
+.news .title p {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+.news img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 20px;
+}
+.news a {
+  font-size: 18px;
+  color: #41332c;
+  font-weight: 800;
+  transition: all 1s;
+}
+.news a:hover {
+  color: #eaa324;
+}
+.news .user {
+  font-size: 12px;
+  color: #808080;
+}
+.news .user .u-1 {
+  padding-right: 25px;
+}
+.news .user i {
+  padding: 20px 10px 10px 0;
+}
+.news .user p {
+  font-size: 14px;
+  padding: 10px 0;
+  line-height: 25px;
+}
+.news .read {
+  padding-top: 15px;
+}
+.news .read a {
+  font-size: 13px;
+  color: #41332c;
+  text-transform: capitalize;
+}
+.news .read a i {
+  padding-left: 5px;
+}
+
+.contact {
+  padding: 20px;
+  margin-top: 20px;
+  font-family: "Balsamiq Sans";
+  text-align: center;
+  background-image: url(../img/ice-cream-3.jpg);
+  background-color: rgba(250, 250, 250, 0.6117647059);
+  background-blend-mode: lighten;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  height: 336px;
+}
+.contact .title h5 {
+  margin-top: 50px;
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #eaa324;
+}
+.contact .title h2 {
+  font-size: 40px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  padding: 15px 0;
+}
+.contact .title p {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  line-height: 25px;
+}
+.contact .mail {
+  padding-top: 20px;
+}
+.contact .mail input {
+  width: 60%;
+  height: 56px;
+  border-radius: 50px 0 0 50px;
+  border: 0;
+  border: 1px solid #eaa324;
+  font-size: 16px;
+  color: #808080;
+  text-transform: capitalize;
+  padding-left: 10px;
+  font-family: "Balsamiq Sans";
+}
+.contact .mail input:focus {
+  border: 2px solid #41332c;
+}
+.contact .mail button {
+  font-family: "Balsamiq Sans";
+  width: 152px;
+  height: 56px;
+  border-radius: 0 50px 50px 0;
+  background-color: #eaa324;
+  font-size: 16px;
+  border: none;
+  color: #ffffff;
+  text-transform: capitalize;
+  transition: all 1s;
+}
+.contact .mail button:hover {
+  background-color: #41332c;
+}
+
+.logo1 {
+  text-align: center;
+  padding: 50px 0;
+}
+.logo1 img {
+  width: 50%;
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #fcf9ef;
+}
+footer .svg {
+  margin-bottom: -5px;
+}
+footer .foot {
+  border-bottom: 1px solid rgba(173, 177, 174, 0.1803921569);
+  margin-bottom: 20px;
+}
+footer .foot img {
+  width: 95px;
+}
+footer .foot p {
+  font-size: 16px;
+  color: #41332c;
+  font-family: "Balsamiq Sans";
+  text-transform: capitalize;
+  text-transform: none;
+  padding: 20px 20px 20px 0;
+}
+footer .foot .icon i {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #eaa324;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  transition: all 1s;
+}
+footer .foot .icon i:hover {
+  background-color: #41332c;
+}
+footer .foot h5 {
+  font-size: 16px;
+  color: #41332c;
+  font-family: "Balsamiq Sans";
+  text-transform: capitalize;
+  font-size: 23px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #eaa324;
+  width: 80%;
+}
+footer .foot ul {
+  padding: 15px 0;
+}
+footer .foot ul li {
+  padding: 5px 0;
+}
+footer .foot ul li a {
+  font-size: 16px;
+  color: #41332c;
+  font-family: "Balsamiq Sans";
+  text-transform: capitalize;
+  transition: all 1s;
+}
+footer .foot ul li a:hover {
+  color: #eaa324;
+}
+footer .foot span {
+  font-size: 16px;
+  color: #41332c;
+  font-family: "Balsamiq Sans";
+  text-transform: capitalize;
+  margin: 20px 0;
+}
+footer .foot span i {
+  color: #eaa324;
+  padding-right: 5px;
+  padding-top: 20px;
+}
+footer .foot .btn {
+  width: 147px;
+  height: 46px;
+  background-color: #eaa324;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  margin-top: 16px;
+  text-transform: capitalize;
+  transition: all 1s;
+}
+footer .foot .btn:hover {
+  background-color: #41332c;
+}
+footer p {
+  font-size: 16px;
+  color: #41332c;
+  font-family: "Balsamiq Sans";
+  text-transform: capitalize;
+}
+
+.slider1 {
+  padding: 80px 0;
+  background-image: url(../img/vanilla-sweet-natural-ice-cream-background.jpg);
+  text-align: center;
+}
+.slider1 h2 {
+  font-size: 42px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  text-transform: capitalize;
+}
+.slider1 p {
+  font-size: 16px;
+  color: #41332c;
+  font-family: "Balsamiq Sans";
+  text-transform: capitalize;
+}
+.slider1 i {
+  color: #41332c;
+  padding: 0 12px;
+}
+.slider1 span {
+  font-size: 16px;
+  color: #41332c;
+  font-family: "Balsamiq Sans";
+  text-transform: capitalize;
+  color: #eaa324;
+}
+
+.counters {
+  padding: 20px 0;
+  text-align: center;
+}
+.counters i {
+  font-size: 52px;
+  color: #eaa324;
+}
+.counters .counter {
+  font-size: 16px;
+  color: #41332c;
+  font-family: "Balsamiq Sans";
+  text-transform: capitalize;
+  font-size: 35px;
+  padding: 20px 0 10px 0;
+}
+.counters h3 {
+  font-size: 16px;
+  color: #41332c;
+  font-family: "Balsamiq Sans";
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+
+.staf {
+  margin: 80px 0;
+  font-family: "Balsamiq Sans";
+  position: relative;
+}
+.staf .title {
+  text-align: center;
+}
+.staf .title h5 {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #eaa324;
+}
+.staf .title h2 {
+  font-size: 40px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  padding: 15px 0;
+}
+.staf .title p {
+  padding-bottom: 50px;
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  line-height: 25px;
+}
+.staf img {
+  width: 100%;
+  border-radius: 10px;
+}
+.staf .name {
+  border-radius: 10px;
+  background-color: #eaa324;
+  color: #ffffff;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: -5%;
+  text-align: center;
+  padding: 25px;
+}
+.staf .name h5 {
+  width: 100%;
+  font-size: 23px;
+}
+.staf .name span {
+  width: 100%;
+  font-size: 16px;
+}
+
+.faq {
+  margin: 150px 0 50px 0;
+}
+.faq .title h5 {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #eaa324;
+}
+.faq .title h2 {
+  font-size: 40px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  padding: 15px 0;
+}
+.faq .title p {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  line-height: 25px;
+}
+.faq .btn {
+  width: 147px;
+  height: 46px;
+  background-color: #eaa324;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  margin-top: 16px;
+  text-transform: capitalize;
+  transition: all 1s;
+}
+.faq .btn:hover {
+  background-color: #41332c;
+}
+.faq .px-acc-title {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #ffffff;
+  font-weight: 800;
+}
+.faq .px-acc-icon {
+  color: #ffffff;
+}
+.faq .px-acc-content {
+  font-size: 16px;
+  color: #41332c;
+  font-family: "Balsamiq Sans";
+  text-transform: capitalize;
+}
+
+.con-mail {
+  margin: 50px 0;
+  font-family: "Balsamiq Sans";
+}
+.con-mail .title h5 {
+  margin-top: 50px;
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #eaa324;
+}
+.con-mail .title h2 {
+  font-size: 40px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  padding: 15px 0;
+}
+.con-mail .title p {
+  font-size: 16px;
+  font-family: "Balsamiq Sans";
+  color: #41332c;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+.con-mail i {
+  font-size: 20px;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #eaa324;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 5px 0px 10px;
+}
+.con-mail .contant h3 {
+  font-size: 23px;
+  color: #41332c;
+}
+.con-mail .contant p {
+  font-size: 16px;
+  color: #808080;
+}
+.con-mail form {
+  background-color: #fcf9ef;
+  padding: 12px;
+  border-radius: 10px;
+}
+.con-mail form label {
+  font-size: 16px;
+  color: #41332c;
+  font-family: "Balsamiq Sans";
+  text-transform: capitalize;
+}
+.con-mail form input {
+  width: 100%;
+  height: 56px;
+  border-radius: 10px;
+  border: 1px solid #eaa324;
+  margin: 10px 0 30px 0;
+}
+.con-mail form input:last-child {
+  height: 140px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.top {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #fcf9ef;
+  border-radius: 50%;
+  background-color: #808080;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99999;
+}/*# sourceMappingURL=style.css.map */
