@@ -24,47 +24,13 @@
     padding: 12px;
 }
 
-.xs-1{
-    width: 8.33%;
-}
-.xs-2{
-    width: 16.66%;
-}
-.xs-3{
-    width: 25%;
-}
-.xs-4{
-    width: 33.33%;
-}
-.xs-5{
-    width: 41.66%;
-}
-.xs-6{
-    width: 50%;
-}
-.xs-7{
-    width: 58.33%;
-}
-.xs-8{
-    width: 66.66%;
-}
-.xs-9{
-    width: 75%;
-}
-.xs-10{
-    width: 83.33%;
-}
-.xs-11{
-    width: 91.66%;
-}
-.xs-12{
-    width: 100%;
-}
+
  .gallery .xs-12 , .gallery .sm-6 , .gallery .md-6 , .gallery .lg-3, .gallery .xl-3 , .event .xs-5 , .event .sm-5 , .event .md-5 , .event .lg-5, .event .xl-5 , .event .xs-7 , .event .sm-7 , .event .md-7 , .event .lg-7, .event .xl-7 , .dish .lg-1{
     padding: 0px;
     text-align: center;
     margin: auto;
 }
+
 
 .top{
     width: 50px;
@@ -350,7 +316,7 @@ header ul li a:hover ,  header .icon i:hover{
 .box1::after , .box2::after , .box3::after , .box4::after , .box5::after , .box6::after , .box7::after , .box8:after{
     width: 0%;
     height: 0%;
-    background-color:  var(--yellow-600);
+    background-color:  var(--yellow-700);
     opacity: 0;
     position: absolute;
     content: '';
@@ -417,52 +383,63 @@ header ul li a:hover ,  header .icon i:hover{
 }
 
 
-.resevation{
+.reservation{
     background-image: url(../img/bg-4.jpg);
     background-size: cover; 
-    height: 577px;
+    /* height: 577px; */
     padding: 60px 0;
 }
-.resevation .content{
+.reservation .content{
     font-family: var(--poppins);
     font-size: 12px;
     color: var(--white-900);
     text-transform: uppercase;
     border: 1px dashed var(--black-600);
     text-align: center;
+    padding:20px;
 }
-.resevation .time{
+.reservation .time{
     background-color: rgba(0, 0, 0, 0.80);
     padding: 30px;
 }
-.resevation .time .title h2 {
+.reservation .time .title h2 {
     color: var(--white-900);
 }
-.resevation .time .title .line{
+.reservation .time .title .line{
     background-color: var(--white-900);
 }
-.resevation .time span{
+.reservation .time span{
     color: var(--yellow-800);
 }
-.resevation .time span:last-child{
+.reservation .time span:last-child{
     font-size: 18px;
 }
-.resevation .time .day{
-    padding: 15px 0;
+.reservation .time .day{
+    padding: 20px 0;
 }
-.resevation .book{
+.reservation .time span:last-child{
+    padding:20px 0;
+}
+.reservation .book{
     background-color: var(--white-900);
 }
-.resevation .book input{
+.reservation .book input{
+    width: 100%;
+   
     border: none;
     border-bottom: solid 1px rgba(0,0,0,.54);
     text-transform: capitalize;
-    font-size: 14px;
+    /* font-size: 14px; */
     color: var(--white-700);
-    padding: 12px;
+    align:center;
+    padding:5px
+    /* padding: 12px; */
 
 }
-.resevation .book button{
+.reservation .book .btn{
+    margin-top:20px
+}
+.reservation .book .btn a{
     width: 170px;
     height: 50px;
     border-radius: 10px;
@@ -470,11 +447,12 @@ header ul li a:hover ,  header .icon i:hover{
     background-color: rgba(255,255,255,0);
     font-family: var(--poppins);
     text-transform: capitalize;
-    border: solid 3px var(--black-900);
-    margin:  auto;
+    border: solid 3px var(--black-900); 
     transition: all 1s;
+    color:var(--black-900);
+    padding:10px
 }
-.resevation .book button:hover{
+.reservation .book .btn a:hover{
     background-color: var(--yellow-800);
     border-color: var(--yellow-800);
     color: var(--white-900);
@@ -549,6 +527,7 @@ footer .mail input{
     background-color: transparent;
     text-transform: capitalize;
     color: var(--white-900);
+    padding:10px;
 }
 footer .mail input:focus{
     box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
@@ -605,6 +584,7 @@ body.black{
     color: var(--black-600);
     font-size: 50px;
     letter-spacing: -3px;
+    
 }
 #counter-box{
     text-transform: capitalize;
@@ -622,6 +602,8 @@ body.black{
 	justify-content:center;
 	align-items:center;
 	background-color:black;
+    position:relative;
+    z-index:9999;
 }
 
 .line1 , .line1 , .line2 , .line3 , .line5{
