@@ -86,8 +86,8 @@
     margin:20px 0;
 }
 .social-icon a i{
-    height: 40px;
-    width: 40px;
+    width: 38px;
+    height:40px;
     background:linear-gradient(145deg, #1e2024, #23272b);
     color: var(--white-900);
     text-align: center;
@@ -500,6 +500,7 @@
     font-family: var(--main-font);
     color: var(--black-800);
     font-weight: 800;
+    
 }
 .price .pricing .title1 .sub-title .btn{
     width: 153px;
@@ -566,9 +567,11 @@
     font-family: var(--main-font);
     color: var(--white-600);
     font-weight: 900;
+    padding:20px
 }
 .price .pricing span i{
     color: var(--white-600);
+    padding-right:5px
 }
 
 /* blog */
@@ -767,42 +770,6 @@
 }
 
 
-.xs-1{
-    width: 8.33%;
-}
-.xs-2{
-    width: 16.66%;
-}
-.xs-3{
-    width: 25%;
-}
-.xs-4{
-    width: 33.33%;
-}
-.xs-5{
-    width: 41.66%;
-}
-.xs-6{
-    width: 50%;
-}
-.xs-7{
-    width: 58.33%;
-}
-.xs-8{
-    width: 66.66%;
-}
-.xs-9{
-    width: 75%;
-}
-.xs-10{
-    width: 83.33%;
-}
-.xs-11{
-    width: 91.66%;
-}
-.xs-12{
-    width: 100%;
-}
 
 .tsparticles-canvas-el{
 	position:absolute;
