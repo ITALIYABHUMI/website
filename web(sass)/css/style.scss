@@ -126,7 +126,8 @@
     .xs-12 {
         width: 100%;
     }
-    .name{
+
+    .name {
         display: none;
     }
 }
@@ -160,7 +161,8 @@ a {
     text-decoration: none;
 }
 
-ul,ol {
+ul,
+ol {
     list-style: none;
 }
 
@@ -175,6 +177,15 @@ ul,ol {
 .justify-center {
     justify-content: center;
 }
+
+.justify-start {
+    justify-content: start;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
 
 $bals: "Balsamiq Sans";
 $black-200: #808080;
@@ -269,9 +280,17 @@ header {
     }
 
     .logo {
+        padding: 20px;
+
         img {
             width: 70px;
         }
+    }
+
+    .toggle {
+        padding: 20px;
+        color: $yellow-100;
+        font-size: 27px;
     }
 }
 
@@ -282,6 +301,7 @@ header {
     margin-bottom: -20px;
     width: 100%;
 }
+
 .svg1 {
     fill: $white-100;
     margin-top: -1000px;
@@ -289,6 +309,7 @@ header {
     width: 100%;
     transform: rotate(180deg);
 }
+
 .svg2 {
     fill: $white-100;
     margin-top: -100px;
@@ -299,7 +320,6 @@ header {
 
 .slider {
     background-image: url(../img/vanilla-sweet-natural-ice-cream-background.jpg);
-    height: 1000px;
     text-align: center;
     font-family: $bals;
     padding-top: 100px;
@@ -310,6 +330,7 @@ header {
 
         h2 {
             font-size: 53px;
+            color: $brown-100;
         }
 
         p {
@@ -329,6 +350,8 @@ header {
     }
 
     .img {
+        z-index: 9999;
+        position: relative;
         margin-top: 50px;
 
         .i-1 {
@@ -336,7 +359,7 @@ header {
         }
 
         img {
-            width: 100%;
+            width: 80%;
             border-radius: 10px;
         }
     }
@@ -789,6 +812,7 @@ header {
 
     .read {
         padding-top: 15px;
+
         a {
             font-size: 13px;
             color: $brown-100;
@@ -832,17 +856,17 @@ header {
 
     .mail {
         padding-top: 20px;
+        width: 100%;
 
         input {
             width: 60%;
-            height: 56px;
             border-radius: 50px 0 0 50px;
             border: 0;
             border: 1px solid $yellow-100;
             font-size: 16px;
             color: $black-200;
             text-transform: capitalize;
-            padding-left: 10px;
+            padding-left: 20px;
             font-family: $bals;
         }
 
@@ -850,22 +874,31 @@ header {
             border: 2px solid $brown-100;
         }
 
-        button {
-            font-family: $bals;
-            width: 152px;
-            height: 56px;
-            border-radius: 0 50px 50px 0;
-            background-color: $yellow-100;
-            font-size: 16px;
-            border: none;
-            color: $white-100;
-            text-transform: capitalize;
-            transition: all 1s;
+        a {
+            width: 25%;
+
+            .btn {
+                font-family: $bals;
+                border-radius: 0 50px 50px 0;
+                background-color: $yellow-100;
+                font-size: 16px;
+                border: none;
+                padding: 15px;
+                color: $white-100;
+                text-transform: capitalize;
+                transition: all 1s;
+
+                i {
+                    padding-left: 5px;
+                }
+            }
+
+            .btn:hover {
+                @include btn-hover;
+            }
         }
 
-        button:hover {
-            @include btn-hover;
-        }
+
     }
 }
 
@@ -881,7 +914,9 @@ header {
 footer {
     padding: 50px 0;
     background-color: $yellow-300;
-    .svg{
+
+
+    .svg {
         margin-bottom: -5px;
     }
 
@@ -966,6 +1001,7 @@ footer {
 
     p {
         @include footer;
+        padding: 12px;
     }
 }
 
@@ -1109,6 +1145,7 @@ footer {
     font-family: $bals;
 
     .title {
+
         h5 {
             margin-top: 50px;
             @include title-h5;

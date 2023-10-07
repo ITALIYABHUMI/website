@@ -141,7 +141,8 @@ a {
   text-decoration: none;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -155,6 +156,14 @@ ul, ol {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justify-end {
+  justify-content: end;
 }
 
 header {
@@ -172,8 +181,16 @@ header .menu ul li a {
 header .menu ul li a:hover {
   color: #eaa324;
 }
+header .logo {
+  padding: 20px;
+}
 header .logo img {
   width: 70px;
+}
+header .toggle {
+  padding: 20px;
+  color: #eaa324;
+  font-size: 27px;
 }
 
 .svg {
@@ -201,7 +218,6 @@ header .logo img {
 
 .slider {
   background-image: url(../img/vanilla-sweet-natural-ice-cream-background.jpg);
-  height: 1000px;
   text-align: center;
   font-family: "Balsamiq Sans";
   padding-top: 100px;
@@ -212,6 +228,7 @@ header .logo img {
 }
 .slider .contant h2 {
   font-size: 53px;
+  color: #41332c;
 }
 .slider .contant p {
   padding-top: 20px;
@@ -235,13 +252,15 @@ header .logo img {
   background-color: #41332c;
 }
 .slider .img {
+  z-index: 9999;
+  position: relative;
   margin-top: 50px;
 }
 .slider .img .i-1 {
   margin-top: 100px;
 }
 .slider .img img {
-  width: 100%;
+  width: 80%;
   border-radius: 10px;
 }
 
@@ -435,27 +454,16 @@ header .logo img {
 .skill .content .progress-bar .progress1 .progress-value,
 .skill .content .progress-bar .progress2 .progress-value,
 .skill .content .progress-bar .progress3 .progress-value {
-  -webkit-animation: load1 5s normal forwards;
-          animation: load1 5s normal forwards;
+  animation: load1 5s normal forwards;
   border-radius: 100px;
   background: #eaa324;
   height: 8px;
 }
 .skill .content .progress-bar .progress2 .progress-value {
-  -webkit-animation: load2 5s normal forwards;
-          animation: load2 5s normal forwards;
+  animation: load2 5s normal forwards;
 }
 .skill .content .progress-bar .progress3 .progress-value {
-  -webkit-animation: load3 5s normal forwards;
-          animation: load3 5s normal forwards;
-}
-@-webkit-keyframes load1 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 87%;
-  }
+  animation: load3 5s normal forwards;
 }
 @keyframes load1 {
   0% {
@@ -465,28 +473,12 @@ header .logo img {
     width: 87%;
   }
 }
-@-webkit-keyframes load2 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 93%;
-  }
-}
 @keyframes load2 {
   0% {
     width: 0;
   }
   100% {
     width: 93%;
-  }
-}
-@-webkit-keyframes load3 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 83%;
   }
 }
 @keyframes load3 {
@@ -746,35 +738,40 @@ header .logo img {
 }
 .contact .mail {
   padding-top: 20px;
+  width: 100%;
 }
 .contact .mail input {
   width: 60%;
-  height: 56px;
   border-radius: 50px 0 0 50px;
   border: 0;
   border: 1px solid #eaa324;
   font-size: 16px;
   color: #808080;
   text-transform: capitalize;
-  padding-left: 10px;
+  padding-left: 20px;
   font-family: "Balsamiq Sans";
 }
 .contact .mail input:focus {
   border: 2px solid #41332c;
 }
-.contact .mail button {
+.contact .mail a {
+  width: 25%;
+}
+.contact .mail a .btn {
   font-family: "Balsamiq Sans";
-  width: 152px;
-  height: 56px;
   border-radius: 0 50px 50px 0;
   background-color: #eaa324;
   font-size: 16px;
   border: none;
+  padding: 15px;
   color: #ffffff;
   text-transform: capitalize;
   transition: all 1s;
 }
-.contact .mail button:hover {
+.contact .mail a .btn i {
+  padding-left: 5px;
+}
+.contact .mail a .btn:hover {
   background-color: #41332c;
 }
 
@@ -882,6 +879,7 @@ footer p {
   color: #41332c;
   font-family: "Balsamiq Sans";
   text-transform: capitalize;
+  padding: 12px;
 }
 
 .slider1 {
