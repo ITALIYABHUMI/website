@@ -28,7 +28,7 @@
     box-shadow: var(--shadow);
 }
 .header{
-    padding: 50px 40px;
+    padding: 50px 20px;
     overflow-y: scroll;
     height: 100vh;
 }
