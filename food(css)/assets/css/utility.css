@@ -1,89 +1,90 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    --webkit-box-sizing: border-box;
-    --moz-box-sizing: border-box;
-    outline: none;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --webkit-box-sizing: border-box;
+  --moz-box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
 }
-:root{
-    --black-900:#000000;
-    --black-800:#050402;
-    --black-700:#333333;
-    --black-600:#898989;
-    --black-500:#cccccc;
-    --black-400:#666666;
-    --white-900:#ffffff;
-    --white-800:#f7f7f7;
-    --white-700:#555555;
-    --yellow-900:#f6c500;
-    --yellow-800:#ffcc00;
-    --yellow-500:#f7b527;
-    --yellow-700:rgba(255, 204, 0, 0.20);
-    --yellow-600:rgba(255,204,0,0.9);
-    --poppins:'Poppins';
-    --allura:'Allura';
+:root {
+  --black-900: #000000;
+  --black-800: #050402;
+  --black-700: #333333;
+  --black-600: #898989;
+  --black-500: #cccccc;
+  --black-400: #666666;
+  --white-900: #ffffff;
+  --white-800: #f7f7f7;
+  --white-700: #555555;
+  --yellow-900: #f6c500;
+  --yellow-800: #ffcc00;
+  --yellow-500: #f7b527;
+  --yellow-700: rgba(255, 204, 0, 0.2);
+  --yellow-600: rgba(255, 204, 0, 0.9);
+  --poppins: "Poppins";
+  --allura: "Allura";
 }
-.container{
-    max-width: 1140px;
-    margin: 0 auto;
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-.row{
-    flex-wrap: wrap;
-    display: flex;
+.row {
+  flex-wrap: wrap;
+  display: flex;
 }
-img{
-    width: 100%;
-    display: block;
+img {
+  width: 100%;
+  display: block;
 }
-.w-20{
-    width: 20%;
-    padding: 12px;
+.w-20 {
+  width: 20%;
+  padding: 12px;
 }
-.w-25{
-    width: 25%;
+.w-25 {
+  width: 25%;
 }
-.w-30{
-    width: 30%;
-    padding: 12px;
+.w-30 {
+  width: 30%;
+  padding: 12px;
 }
-.w-40{
-    width: 40%;
+.w-40 {
+  width: 40%;
 }
-.w-33{
-    width: 33.33%;
-    padding: 12px;
+.w-33 {
+  width: 33.33%;
+  padding: 12px;
 }
-.w-50{
-    width: 50%;
-    padding: 12px;
+.w-50 {
+  width: 50%;
+  padding: 12px;
 }
-.w-60{
-    width: 60%;
+.w-60 {
+  width: 60%;
 }
-.w-70{
-    width: 70%;
-    padding: 12px;
+.w-70 {
+  width: 70%;
+  padding: 12px;
 }
-ul,ol{
-    list-style: none;
+ul,
+ol {
+  list-style: none;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.align-item-center{
-    align-items: center;
+.align-item-center {
+  align-items: center;
 }
-.justify-content-center{
-    justify-content: center;
+.justify-content-center {
+  justify-content: center;
 }
-.justify-content-between{
-    justify-content: space-between;
+.justify-content-between {
+  justify-content: space-between;
 }
-.justify-content-start{
-    justify-content: flex-start;
+.justify-content-start {
+  justify-content: flex-start;
 }
-.justify-content-end{
-    justify-content: flex-end;
+.justify-content-end {
+  justify-content: flex-end;
 }
