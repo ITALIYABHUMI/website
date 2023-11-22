@@ -37,7 +37,6 @@
     text-transform: uppercase;
     font-family: var(--main-font);
     transition: all 0.5s;
-    font-weight: 600;
 }
 .header .menu ul li a i{
     margin-right: 10px;
@@ -148,15 +147,13 @@
     color: var(--white-900);
     font-size: 48px;
     text-transform: capitalize;
-    font-weight: 900;
     font-family: var(--main-font);
     margin: 5px 0;
 }
-.slider .img h1{
+.slider .img span{
     color: var(--white-900);
     font-size: 30px;
     font-family: var(--poppins);
-    font-weight: 400;
 }
 .slider .img p span{
     color: var(--red);
@@ -292,7 +289,6 @@
     color: var(--white-900);
     text-transform: capitalize;
     margin-bottom: 7px;
-    font-weight: 500;
     text-align: left;
     letter-spacing: 0;
 }
@@ -426,7 +422,6 @@
     font-size: 16px;
     font-family: var(--poppins);
     color: var(--black-800);
-    font-weight: 500;
     text-transform: capitalize;
     color: var(--white-900);
 }
@@ -490,7 +485,6 @@
     font-family: var(--main-font);
     color: var(--white-900);
     margin-bottom: 9px;
-    font-weight: 1900;
     text-transform: capitalize;
     text-align: left;
     letter-spacing: 0;
@@ -499,8 +493,6 @@
     font-size: 16px;
     font-family: var(--main-font);
     color: var(--black-800);
-    font-weight: 800;
-    
 }
 .price .pricing .title1 .sub-title .btn{
     width: 153px;
@@ -522,7 +514,6 @@
     font-size: 18px;
     font-family: var(--main-font);
     color: var(--white-900);
-    font-weight: 900;
     margin: 25px 5px;
 }
 .price .pricing ul li i{
@@ -543,9 +534,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: var(--main-font);
-    font-weight: 200;
     line-height: 69px;
-    font-weight: 600;
     transition: all 1s;
 }
 .price .pricing .btn i{
@@ -558,7 +547,6 @@
 }
 .price .pricing .btn:hover a{
     color: var(--red);
-    font-weight: 600;
 }
 .price .pricing span{
     font-size: 12px;
@@ -566,7 +554,6 @@
     letter-spacing: 2px;
     font-family: var(--main-font);
     color: var(--white-600);
-    font-weight: 900;
     padding:20px
 }
 .price .pricing span i{
@@ -597,15 +584,11 @@
     transition: all 1s;
     width: 100%;
 }
-.blog:hover .blog-content .blog-title a{
-    font-weight: 500;
-} 
 .blog .blog-content .blog-title a{
     color: var(--red);
     font-family: var(--poppins);
     font-size: 12px;
     text-transform: uppercase;
-    font-weight: 200;
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
@@ -613,13 +596,11 @@
     color: var(--white-900);
     font-family: var(--poppins);
     font-size: 13px;
-    font-weight: 500; 
 }
 .blog .blog-content h2 a{
     color: var(--white-900);
     font-family: var(--main-font);
-    font-size: 23px;
-    font-weight: 900; 
+    font-size: 23px; 
     transition: all 1s;
     line-height: 1.5;
 }
@@ -651,7 +632,6 @@
     font-size: 29px;
     font-family: var(--main-font);
     color: var(--white-800);
-    font-weight: 900;
     padding: 10px 0;
 }
 .form span{
@@ -670,7 +650,6 @@
     font-size: 16px;
     font-family: var(--poppins);
     color: var(--white-900);
-    font-weight: 400;
     position: relative;
     transition: all 1s;
 } 
@@ -703,7 +682,6 @@
     font-size: 12px;
     font-family: var(--main-font);
     color: var(--white-500);
-    font-weight: 700;
     margin: 14px 0;
     display: flex;
     text-transform: uppercase;
@@ -733,7 +711,6 @@
     color: var(--white-900);
     text-transform: uppercase;
     font-family: var(--poppins);
-    font-weight: 500;
     letter-spacing: 1px;
     transition: all 1s;
 }

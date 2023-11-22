@@ -376,8 +376,14 @@ header .toggle {
 }
 .service .about-1 img {
   width: 100%;
+  height: 580px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
   margin-top: 30px;
+}
+.service .about-2 {
+  padding: 0;
 }
 .service .about-2 img {
   width: 100%;
@@ -388,9 +394,11 @@ header .toggle {
 }
 .service .about-2 .img {
   width: 100%;
+  height: 100%;
 }
 .service .about-2 .img img {
   width: 100%;
+  height: auto;
 }
 
 .skill {

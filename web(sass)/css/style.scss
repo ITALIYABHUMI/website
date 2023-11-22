@@ -470,12 +470,15 @@ header {
 
         img {
             width: 100%;
+            height: 580px;
+            object-fit: cover;
             border-radius: 10px;
             margin-top: 30px;
         }
     }
 
     .about-2 {
+        padding: 0 ;
         img {
             width: 100%;
             height: 420px;
@@ -485,9 +488,12 @@ header {
 
         .img {
             width: 100%;
+            height: 100%;
 
             img {
                 width: 100%;
+                height:auto;
+
             }
         }
     }
