@@ -129,7 +129,8 @@ ul,li{
 .title h5{
     color: var(--red-900);
     font-size: 14px;
-    letter-spacing: 2px;  
+    letter-spacing: 2px;
+    font-weight:normal  
 }
 .title h2{
     font-size: 60px;

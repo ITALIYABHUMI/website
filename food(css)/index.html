@@ -54,7 +54,7 @@
                                     </ul>
                                 </div>
                                 <div
-                                    class="icon row justify-content-between align-item-center d-block d-none">
+                                    class="icon row justify-content-between align-item-center ">
                                     <a href="#"><i
                                             class="fa-brands fa-facebook-f"></i></a>
                                     <a href="#"> <i
@@ -101,20 +101,6 @@
                                             class="fa-brands fa-twitter"></i></a>
                                     <a href="#"><i
                                             class="fa-brands fa-instagram"></i></a>
-                                    <div
-                                        class="setting row justify-content-center align-item-center"><i
-                                            class="fa-solid fa-gear"></i>
-                                        <div class="switch">
-                                            <div class="light white">
-                                                <i
-                                                    class="fa-regular fa-circle"></i>
-                                            </div>
-                                            <div class="dark black">
-                                                <i
-                                                    class="fa-solid fa-circle"></i>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </header>
@@ -134,7 +120,7 @@
                         <div class="sm-12 md-6">
                             <img src="assets/img/about.png" alt>
                         </div>
-                        <div class="sm-12 md-6">
+                        <div class="sm-12 md-6 row align-item-center justify-content-center">
                             <div class="title">
                                 <h5>discover</h5>
                                 <h2>our store</h2>
@@ -221,7 +207,7 @@
                                 </div>
                             </div>
                             <div class="box row justify-content-center">
-                                <div class=" xs-6 sm-6 lg-4">
+                                <div class=" sm-6 lg-4">
                                     <div
                                         class="dish-menu row align-item-center justify-content-center">
                                         <div class="img">
@@ -377,7 +363,7 @@
                                     incididunt</p>
                                 <span>$12.75</span>
                                 <div
-                                    class="row align-item-center justify-content-between">
+                                    class="row align-item-center justify-content-between" style="padding-top: 15px;">
                                     <img src="assets/img/avtar-1.png" alt>
                                     <p>“Made with love for your mood.
                                         Enjoy!’’</p>
@@ -394,7 +380,7 @@
             <div class="reservation">
                 <div class="container">
                     <div class="row">
-                        <div class="xs-12 sm-4 md-4 time">
+                        <div class="xs-12 sm-5 md-4 time">
                             <div class="content">
                                 <div class="title">
                                     <h5>time</h5>
@@ -414,10 +400,10 @@
                                 <span>+15 890 979 25 52</span>
                             </div>
                         </div>
-                        <div class="xs-12 sm-8 md-8 book">
+                        <div class="xs-12 sm-7 md-8 book row align-item-center justify-content-center">
                             <div class="title">
-                                <h5>discover</h5>
-                                <h2>our soter</h2>
+                                <h5>Resevation</h5>
+                                <h2>ONLINE BOOKING</h2>
                                 <div class="line"></div>
                             </div>
                             <form>
@@ -459,7 +445,7 @@
             </div>
         </section>
 
-        <section>
+        <section style="padding: 25px  0;">
             <a name="chef"></a>
             <div class="title">
                 <h5>meet</h5>
@@ -470,7 +456,7 @@
                 <div class="container">
                     <div class="row align-item-center">
                         <div class="slide2 owl-carousel owl-theme">
-                            <div class="item ">
+                            <div class="item" style="padding: 15px;">
                                 <img src="assets/img/cheff-1.jpg" alt>
                                 <h2>JOHN DOGGETT</h2>
                                 <h5>Head Chef</h5>
@@ -486,7 +472,7 @@
                                 <a href="#"><i
                                         class="fa-brands fa-instagram"></i></a>
                             </div>
-                            <div class="item">
+                            <div class="item" style="padding: 15px;">
                                 <img src="assets/img/cheff-2.jpg" alt>
                                 <h2>MONICA REYES</h2>
                                 <h5>Waitress</h5>
@@ -502,7 +488,7 @@
                                 <a href="#"><i
                                         class="fa-brands fa-instagram"></i></a>
                             </div>
-                            <div class="item">
+                            <div class="item" style="padding: 15px;">
                                 <img src="assets/img/cheff-3.jpg" alt>
                                 <h2>JEFFREY SPENDER</h2>
                                 <h5>Head Barman</h5>
@@ -564,24 +550,28 @@
             </div>
         </section>
 
-        <div id="counter-section-container">
-            <div class="row align-item-center justify-content-center">
-                <div id="counter-box">
-                    <span class="counter" data-number="1500000"></span>
-                    <h2>twitter</h2>
-                </div>
-
-                <div id="counter-box">
-                    <span class="counter" data-number="20000"></span>
-                    <h2>facebook</h2>
-                </div>
-
-                <div id="counter-box">
-                    <span class="counter" data-number="2000"></span>
-                    <h2>linkdin</h2>
+       <section>
+        <div class="container">
+            <div id="counter-section-container">
+                <div class="row align-item-center justify-content-center">
+                    <div id="counter-box">
+                        <span class="counter" data-number="1500000"></span>
+                        <h2>twitter</h2>
+                    </div>
+    
+                    <div id="counter-box">
+                        <span class="counter" data-number="20000"></span>
+                        <h2>facebook</h2>
+                    </div>
+    
+                    <div id="counter-box">
+                        <span class="counter" data-number="2000"></span>
+                        <h2>linkdin</h2>
+                    </div>
                 </div>
             </div>
         </div>
+       </section>
 
         <section>
             <a name="event"></a>
@@ -801,15 +791,11 @@
         $(document).ready(function () {
             $(".toggle").click(function () {
                 $(".ab").fadeToggle("1000");
-            });
+                });
 
             $("header").css("position" , "sticky");
             $("header").css("top" , "0");
 
-            $(".setting").click(function () {
-                $(".switch").slideToggle(1000);
-                $(".setting").css("border-radius", "50% 50% 0 0");
-            });
         });
         $(window).scrollTop(function () {
             $(".top").click(function () {

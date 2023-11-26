@@ -337,6 +337,103 @@ header .toggle {
 .service {
   padding: 50px 0;
 }
+.service .img1 {
+  background-image: url("../img/newlywed-couple-eating-ice-cream-from-a-cone-on-a-street-in-shanghai-near-yuyuan-china-e1634197806400.jpg");
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top: 30px;
+  position: relative;
+}
+.service .img2 {
+  background-image: url("../img/ice-cream-with-berries-e1634197828229.jpg");
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 420px;
+  border-radius: 10px;
+}
+.service .img3 {
+  background-image: url("../img/chocolate-icecream-in-metal-tray-with-mint-leaf-and-almond-nuts-e1634197849529.jpg");
+  width: 100%;
+  height: 580px;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 420px;
+  border-radius: 10px;
+}
+.service .img4 {
+  background-image: url("../img/working-staff-at-the-cafe-or-pastry-shop-e1634197868944.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+}
+.service .img1::after,
+.service .img2::after,
+.service .img3::after,
+.service .img4::after {
+  width: 0%;
+  height: 0%;
+  background-color: rgba(0, 0, 0, 0.537254902);
+  background-blend-mode: lighten;
+  opacity: 0;
+  position: absolute;
+  content: "";
+  transition: all 1s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+.service .img1:hover::after,
+.service .img2:hover::after,
+.service .img3:hover::after,
+.service .img4:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+.service .img1 .con,
+.service .img2 .con,
+.service .img3 .con,
+.service .img4 .con {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  text-align: left;
+  padding: 15px;
+  color: #fcfcfc;
+  font-weight: 500;
+  z-index: 9999999;
+  transition: all 1s;
+  opacity: 0;
+  font-family: "Balsamiq Sans";
+}
+.service .img1 .con h5,
+.service .img2 .con h5,
+.service .img3 .con h5,
+.service .img4 .con h5 {
+  font-size: 23px;
+  padding-bottom: 5px;
+}
+.service .img1 .con p,
+.service .img2 .con p,
+.service .img3 .con p,
+.service .img4 .con p {
+  font-size: 16px;
+}
+.service .img1:hover .con,
+.service .img2:hover .con,
+.service .img3:hover .con,
+.service .img4:hover .con {
+  opacity: 1;
+}
 .service .about-1 .content {
   background-color: #fde0a1;
   padding: 25px;
@@ -374,14 +471,6 @@ header .toggle {
 .service .about-1 .content .btn:hover {
   background-color: #41332c;
 }
-.service .about-1 img {
-  width: 100%;
-  height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 10px;
-  margin-top: 30px;
-}
 .service .about-2 {
   padding: 0;
 }
@@ -391,10 +480,6 @@ header .toggle {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
-}
-.service .about-2 .img {
-  width: 100%;
-  height: 100%;
 }
 .service .about-2 .img img {
   width: 100%;

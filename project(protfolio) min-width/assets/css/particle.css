@@ -2,6 +2,7 @@
 canvas {
   display: block;
   vertical-align: bottom;
+  z-index:-1;
 }
 /* ---- tsparticles container ---- */
 #tsparticles {

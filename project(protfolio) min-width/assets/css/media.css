@@ -42,8 +42,22 @@
   .xs-12 {
     width: 100%;
   }
+  .box .row a .resume {
+    margin: 0 !important;
+  }
+  .price .pricing .title1 .sub-title .btn {
+    font-size: 14px!important;
+    height: 65px!important;
+    line-height: 65px!important;
+  }
+  .blog{
+    margin-bottom:0!important
+  }
+  .name .f-name{
+    width: 100%!important;
+  }
 }
-@media (min-width: 576px) {
+@media (min-width: 575px) {
   .sm-1 {
     width: 8.33%;
   }
@@ -85,6 +99,12 @@
   }
   .to-block {
     display: block;
+  }
+  .box .row a .resume {
+    margin: 0 !important;
+  }
+  .blog{
+    margin-bottom:0!important
   }
 }
 @media (min-width: 768px) {
@@ -129,6 +149,12 @@
   }
   .to-block {
     display: block;
+  }
+  .ul{
+    justify-content:left!important;
+  }
+  .ul ul{
+    padding-right : 15px!important;
   }
 }
 @media (min-width: 992px) {
