@@ -56,6 +56,12 @@
   .name .f-name{
     width: 100%!important;
   }
+  .slide{
+    position:absolute;
+    top:0;
+    z-index:99;
+   
+  }
 }
 @media (min-width: 575px) {
   .sm-1 {
@@ -105,6 +111,11 @@
   }
   .blog{
     margin-bottom:0!important
+  }
+  .slide{
+    position:absolute;
+    top:0;
+    z-index:99;
   }
 }
 @media (min-width: 768px) {
@@ -156,6 +167,12 @@
   .ul ul{
     padding-right : 15px!important;
   }
+  .slide{
+    position:absolute;
+    top:0;
+    z-index:99;
+
+  }
 }
 @media (min-width: 992px) {
   .lg-1 {
@@ -200,6 +217,11 @@
   .to-block {
     display: block;
   }
+  .slide{
+    position:absolute;
+    top:0;
+    z-index:99;
+  }
 }
 @media (min-width: 1200px) {
   .xl-1 {
@@ -243,5 +265,9 @@
   }
   .to-none {
     display: none;
+  }
+  .aside{
+    position:absolute;
+    right:0
   }
 }
