@@ -13,6 +13,9 @@ body {
 .bg-orange{
 	background-color: #FF7425;
 }
+.t-black{
+	color:#D0D0D0;
+}
 
 .f-14 {
 	font-size: 14px;
@@ -102,7 +105,7 @@ body{
 }
 
 .get:hover::after , .get1:hover::after {
-	width: 160px;
+	width: 175px;
 	height: 60px;
 	border-radius: 50px;
 	line-height: 60px;
